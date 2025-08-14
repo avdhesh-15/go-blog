@@ -41,22 +41,22 @@ It’s perfect as a **starter template** for content-based apps with authenticat
 ## ⚙️ Setup Instructions
 
 ### Clone the repository
-git clone https://github.com/avdhesh-15/go-blog.git
+- git clone https://github.com/avdhesh-15/go-blog.git
 
 ### Install the dependencies
-go mod tidy
+- go mod tidy
 
 ### Create .env 
-PORT= Your Port
-DB_STRING= Your Postgres URL 
-JWT_SECRET= Your JWT secret 
+- PORT= Your Port
+- DB_STRING= Your Postgres URL 
+- JWT_SECRET= Your JWT secret 
 
 ### Generate your secret key 
-openssl rand -base64 32
+- openssl rand -base64 32
 
 ### Run the project
-cd cmd
-go run main.go
+- cd cmd
+- go run main.go
 
 ---
 
